@@ -3,7 +3,7 @@ import numpy as np
 from itertools import combinations
 
 
-def apply_encoding_and_features(df, original_df_train):
+def feature_eng(df, original_df_train):
     le = LabelEncoder()
     for col in df.select_dtypes("object").columns:
         df[col] = le.fit_transform(df[col]) + 1

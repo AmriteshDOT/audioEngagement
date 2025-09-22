@@ -5,9 +5,8 @@ import xgboost as xgb
 from sklearn.metrics import mean_squared_error
 import numpy as np
 
-
 def run_optuna(df_train, target, seed1=42):
-    cv = KFold(n_splits=3, shuffle=True, random_state=seed1)
+    cv = KFold(n_splits=5, shuffle=True, random_state=seed1)
 
     params = {
         "objective": "reg:squarederror",
