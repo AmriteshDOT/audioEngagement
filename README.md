@@ -8,4 +8,4 @@
 - Tuned hyperparameters with Optuna and evaluated using K-Fold cross-validation.
 - Achieved a Root Mean Squared Error (RMSE) of 11.753 minutes.
 ## Tech Stack
-- Python, XGBoost, Optuna, scikit-learn, pandas, numpy
+- Python, XGBoost, Optuna, scikit-learn, pandas, numpy.
